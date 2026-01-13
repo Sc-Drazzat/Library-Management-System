@@ -30,4 +30,4 @@ bin/
 .DS_Store
 
 config.properties
-src/edu/aitu/oop3/db/DatabaseConnection.java
+src/edu.aitu.oop3.db/DatabaseConnection.java
