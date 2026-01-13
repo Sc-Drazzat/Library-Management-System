@@ -11,7 +11,7 @@ public class Members {
         try (Connection connection = DatabaseConnection.getConnection()) {
             createTableIfNeeded(connection);
             insertUser(connection, "Alice", "alice@example.com");
-            insertUser(connection, "Bob", "bob@example.com");
+            insertUser(connection, "lnur", "bob@example.com");
             printAllUsers(connection);
         } catch (SQLException e) {
             System.out.println("Database error:");
