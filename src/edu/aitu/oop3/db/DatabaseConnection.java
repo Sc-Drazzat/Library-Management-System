@@ -8,7 +8,7 @@ public class DatabaseConnection {
     private static final String URL =
             "jdbc:postgresql://aws-1-ap-southeast-1.pooler.supabase.com:5432/postgres?sslmode=require";
     private static final String USER = "postgres.luvdguyvljifbnxvkxvp";
-    private static final String PASSWORD = "Scientia_Potentia";
+    private static final String PASSWORD = System.getenv("Scientia_Potentia");
     private DatabaseConnection() {
     }
     public static Connection getConnection() throws SQLException {
